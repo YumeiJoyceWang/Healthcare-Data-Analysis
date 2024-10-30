@@ -4,7 +4,7 @@ This project built an ETL pipeline which helps with EHR data statistics by extra
 In this project, we will use Python 3.6 + environment. Please see environment.yml which contains a list of libraries needed to set environment for this project.
 
 ### Tasks
-1. Descriptive Statistics 
+1. **Descriptive Statistics**
 
     event_statistics.py computes various metrics on the data.
   - Event count: Number of events recorded for a given patient. Note that every line in
@@ -13,7 +13,7 @@ the input file is an event.
   - Record length: Duration (in number of days) between the first event and last event
 for a given patient.
 
-2. ETL pipeline and Feature construction 
+2. **ETL pipeline and Feature construction** 
 
     etl.py extracts, transforms and saves the data. 
 
@@ -31,6 +31,6 @@ for a given patient.
 
     If the dimensionality of a feature vector is large but the feature vector is sparse (i.e. it has only a few nonzero elements) sparse representation should be employed.
 
-3. Predictive Modeling 
+3. **Predictive Modeling** 
 
     A simple model is implemented in my_model.py. 
