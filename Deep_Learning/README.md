@@ -13,6 +13,7 @@ The given environment file is based on Linux (Ubuntu) system. Mac OS users who w
 - train_seizure.py train and validate the model.
 
 2. **Mortality Prediction with RNN**
+
 In many realworld problems, however, data often contains variable-length of sequences, natural language processing for example. Also in healthcare problems, especially for longitudinal health records, each patient has a different length of clinical records history. In this problem, we will apply a recurrent neural network on variable-length of sequences from longitudinal electronic health record (EHR) data.
 
 - etl_mortality_data.py implemented a pipeline that process the raw dataset to transform it to a structure that can be used with RNN model.
