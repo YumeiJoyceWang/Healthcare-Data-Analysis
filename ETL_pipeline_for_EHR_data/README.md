@@ -7,10 +7,10 @@ In this project, we will use Python 3.6 + environment. Please see environment.ym
 1. Descriptive Statistics 
 
     event_statistics.py computes various metrics on the data.
-- Event count: Number of events recorded for a given patient. Note that every line in
+  - Event count: Number of events recorded for a given patient. Note that every line in
 the input file is an event.
-- Encounter count: Count of unique dates on which a given patient visited the hospital. All the events - DIAG, LAB and DRUG - should be considered as hospital visiting events.
-- Record length: Duration (in number of days) between the first event and last event
+  - Encounter count: Count of unique dates on which a given patient visited the hospital. All the events - DIAG, LAB and DRUG - should be considered as hospital visiting events.
+  - Record length: Duration (in number of days) between the first event and last event
 for a given patient.
 
 2. ETL pipeline and Feature construction 
@@ -22,8 +22,8 @@ for a given patient.
     Step - b. Filter events
     
     Step - c. Aggregate events
-        - sum values for diagnostics and medication events (i.e. event id starting with DIAG and DRUG).
-        - count occurences for lab events (i.e. event id starting with LAB).
+  - sum values for diagnostics and medication events (i.e. event id starting with DIAG and DRUG).
+  - count occurences for lab events (i.e. event id starting with LAB).
 
     Then normalize different features into the same scale using an approach like min-max normalization.
     
